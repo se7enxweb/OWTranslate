@@ -2,10 +2,10 @@
 <software>
     <metadata>
         <name>OWTranslate</name>
-        <version>1.2</version>
-        <copyright>OpenWide http://www.openwide.fr/</copyright>
+        <version>1.3</version>
+        <copyright>Copyright (C) 2012 - 2015 Open Wide; Copyright (C) 1998 - 2026 7x and the Exponential Foundation</copyright>
         <license>GNU General Public License v2.0</license>
-        <info_url>https://github.com/organizations/Open-Wide</info_url>
+        <info_url>https://github.com/se7enxweb/OWTranslate</info_url>
     </metadata>
 
     <dependencies>

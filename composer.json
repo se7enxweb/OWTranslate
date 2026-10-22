@@ -1,0 +1,36 @@
+{
+    "name": "se7enxweb/owtranslate",
+    "description": "Exponential extension that collects the i18n strings of your extensions' templates and PHP files into translation.ts files for every site language, and lets you translate them in the admin with inline editing.",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "Exponential", "extension", "translation", "i18n", "translation.ts", "localization", "admin" ],
+    "homepage": "https://github.com/se7enxweb/OWTranslate",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Open Wide",
+            "homepage": "http://www.openwide.fr",
+            "role": "Original Author"
+        },
+        {
+            "name": "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/se7enxweb/OWTranslate/issues",
+        "source": "https://github.com/se7enxweb/OWTranslate"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "ext-dom": "*",
+        "se7enxweb/exponential-legacy-installer": "^2.2"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "owtranslate",
+        "installer-name": "owtranslate"
+    }
+}
