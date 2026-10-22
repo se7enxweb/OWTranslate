@@ -1,20 +1,2 @@
-Extension : OWTranslate 1.2
-Requires : eZ Publish 4.x.x (not tested on 3.X)
-Author : Open Wide <http://www.openwide.fr>
-
-Installation:
-------------
-- Copy owtranslate in extension directory
-- If needed :
-	 - set your mainExtension into settings/owtranslate.ini (default is owtranslate)
-	 - set your mainLocale into settings/owtranslate.ini (default is eng-GB)
-	 - set in ExcludeExtension into settings/owtranslate.ini, all the extensions which you do not want to cross for the generation of the files of translation
-	 - set LocalOverride into settings/owtranslate.ini, to allow use non-english translation keys (see owtranslate.ini for details)
-- Assure you to have voucher rights of writing for the creation of the files of translations
-- Enable the extension in site.ini (in first position if you use owtranslate as mainExtension, see owtranslate.ini for details)
-- Clear the cache
-- Regenerate autoloads : php bin/php/ezpgenerateautoloads.php -e
-
-Usage
-------------
-See README for details
+Installation, configuration and usage are described in README.md at the root
+of the extension.
